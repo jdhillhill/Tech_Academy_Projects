@@ -1,0 +1,43 @@
+/*-----------------------------------------
+MENU STYLES
+----------------------------------------*/
+.menu {
+    font-family: sans-sarif;
+    font-size: 90.5%;  
+}
+
+/*-----------------------------------------
+IMAGE STYLES
+----------------------------------------*/
+.image {
+     width: 220px;
+     Height: 300px;
+     margin-left: 15px;
+}
+/*-----------------------------------------
+FORM STYLES
+----------------------------------------*/
+.form {
+    font-size: 15px;
+    border-radius: 25px;
+    border: 2px solid rgb(63, 33, 173);
+    padding: 20px; 
+    width: 200px;
+    height:250px;
+}
+
+/* ---------------------
+FOOTER STYLES
+---------------------------- */
+
+#footer {
+    background-color: rgba(100,65,0,.3);
+    color: #000;
+    text-shadow: 2px 2px 8px 0 (0,0,0,0.4);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+}
+
+
+
+
