@@ -1,0 +1,143 @@
+/*-----------------------------------------
+NAVBAR STYLES
+----------------------------------------*/
+
+.navbar {
+    overflow: hidden;
+    background-color: lightblue;
+    position: sticky; 
+    top: 0; 
+    width: 100%; /* -Full width of Screen */
+    z-index: 1;
+  }
+  
+  /* --------------- Navbar Links------------------*/
+  .navbar a {
+    float: left;
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* ------------------Mouse-over-------------------*/
+  .navbar a:hover {
+    background: blue;
+    color:yellow;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 100px; 
+  }
+
+/*-----------------------------------------
+IMAGE STYLES
+----------------------------------------*/
+.image {
+    width: 75%;
+    height: auto; 
+    margin-left: auto;
+     margin-right: auto;
+     -webkit-filter: grayscale(50%);
+     filter: grayscale(50%);
+     border: 2px solid blue;
+     border-radius: 25px;
+     padding: 20px 50px 20px 50px;
+     
+     
+
+}
+  
+  /* -------------------Top left text ---------------*/
+  .overlay {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-weight: bold;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 90%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+  /* -------------------2 Columns Section ---------------*/
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+/*-----------------------------------------
+TABLE STYLES
+----------------------------------------*/
+
+
+table {
+    border: 3px solid silver;
+    border: 2px solid black;
+}
+td:hover {
+	background-color: yellow;
+	color: black;
+}
+tr, th {
+	background-color: red;
+}
+td {
+	background-color: blue;
+    color: white;
+    padding-left: 15px;
+}
+
+
+FORM STYLES
+
+.form {
+    margin-left: 15px;
+    font-size: 15px;
+    width: 200px;
+    height:250px;
+}
+
+/* ---------------------
+FOOTER STYLES
+---------------------------- */
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer:hover {
+    background: blue;
+    color:yellow;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
