@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+        
+<html>
+        <head> 
+            <script src="JS/Basic_JavaScript_7.js"></script>
+        </head>
+    <body>
+        <p>Create a local variable, assign a value to it, and display it:</p>
+        <button type="button" onclick="myFunction()">Local Var!</button>
+        <p id="local_var"></p>
+
+    <script>
+        function myFunction() {
+            var a = 5;
+            document.getElementById("local_var").innerHTML = a * a;
+        }
+    </script>
+        <p>Create a GLOBAL variable, assign a value to it, and display it:</p>
+        <button type="button" onclick="myFunction2()">Global Var!</button>
+        <p id="global_var"></p>
+        
+    <script>
+        var b = 5;
+        function myFunction2() {
+            document.getElementById("global_var").innerHTML = b * b;
+        }
+    </script>
+
+        <p id="Greeting" onClick="get_Date()">Click for Time</p>
+
+        <p>You must be over the age of 15 to drive legally.</p>
+        <input id="Age" value="16" />
+        <button onclick="Age_Function()">Click here</button>
+        <p id="Result"></p>
+
+        <p id="Time_of_day"></p>
+        <button onclick="Time_function()">Click here to get the time.</button>
+
+
+
+
+
+    </body>
+</html>
+
+
+        
+        
